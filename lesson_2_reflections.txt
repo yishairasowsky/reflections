@@ -17,16 +17,33 @@ What value do you think it offers?
 
 The basic value is that you don't have to bother updating in each version save all the files; rather, in each update, you can select a subgroup of the files together which have logical connection to one another, and exclude those that do not. 
 
+3.
 How can you use the staging area to make sure you have one commit per logical
 change?
 
-What are some situations when branches would be helpful in keeping your history
-organized? How would branches help?
 
+4.
+What are some situations when branches would be helpful in keeping your history
+organized? 
+
+You want to make different versions of your program, each of which is accesible simultaneously.
+
+How would branches help?
+You could assign each version to a different branch, and then modify and save version to that branch.
+
+5.
 How do the diagrams help you visualize the branch structure?
 
+Without the diagram, the branches are difficult to follow, because the computer can only print one elemnt at a time. but with the diagram, you see the main branch, plus all the additional branches simultanouesly.
+
+
+6. 
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
 
+7.
 What are the pros and cons of Git's automatic merging vs. always doing merges
 manually?
+
+When you do a merge manually, then it will be under your control, so you can decide when and where to connect your branches. That is good. What's bad is that you might forget to merge. 
+If you let the system merge branches for you automatically, then it's a sure bet you won't forget. But the merges might not take place in the right places or at the right times.
